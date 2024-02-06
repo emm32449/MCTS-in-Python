@@ -68,13 +68,17 @@ Window of Past Games: AlphaGo Zero only uses the most recent games for training,
 MCTS-in-Python is licensed under the MIT License. See LICENSE for more details.
 
 ## Contributing
-MCTS-in-Python welcomes contributions from anyone who wants to improve or enhance the project. To contribute, please follow these steps:
 
-Fork this repository and create a new branch
-Make your changes and commit them with a descriptive message
-Push your branch to your fork and create a pull request
-Wait for your pull request to be reviewed and merged
+MCTS in Python welcomes contributions from anyone who wants to improve or enhance the project. To contribute, please follow these steps:
+
+- Fork this repository and create a new branch
+- Make your changes and commit them with a descriptive message
+- Push your branch to your fork and create a pull request
+- Wait for your pull request to be reviewed and merged
+
 Please follow the code of conduct and the style guide when contributing. You can also check the issues page for any open tasks or bugs that you can help with.
+
+Contributing to an open source project is a rewarding and fun way to learn new skills, meet new people, and make a positive impact on the world. By contributing to MCTS in Python, you can help us create better and more enjoyable games and AI for everyone. You can also showcase your creativity and expertise, and get feedback and recognition from other developers. Whether you are a beginner or an expert, there is always something you can do to help. We appreciate your interest and support!
 
 ## Acknowledgements
 MCTS-in-Python was inspired by or uses the following resources:
