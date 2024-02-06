@@ -33,6 +33,7 @@ for i in range(epochs):
     # Step the learning rate scheduler
     scheduler.step()
 
+Suggested Improvements:
 
 Use of Residual Networks: AlphaGo Zero uses a residual network (ResNet) for its policy and value networks. You might want to replace PolicyValueNet with a ResNet.
 
