@@ -54,7 +54,7 @@ for i in range(epochs):
 
     # Step the learning rate scheduler
     scheduler.step()
-
+```
 Suggested Improvements:
 
 Use of Residual Networks: AlphaGo Zero uses a residual network (ResNet) for its policy and value networks. You might want to replace PolicyValueNet with a ResNet.
@@ -63,10 +63,11 @@ Updating the Network: In AlphaGo Zero, the network is updated with states and ac
 Simultaneous Self-Play: AlphaGo Zero generates self-play games from multiple instances of the game simultaneously. This could be implemented with multi-threading or distributed computing.
 Noise for Exploration: AlphaGo Zero adds Dirichlet noise to the root node to encourage exploration. You could add this in the self_play function.
 Window of Past Games: AlphaGo Zero only uses the most recent games for training, discarding older games. You could implement a similar mechanism.
-License
+
+## License
 MCTS-in-Python is licensed under the MIT License. See LICENSE for more details.
 
-Contributing
+## Contributing
 MCTS-in-Python welcomes contributions from anyone who wants to improve or enhance the project. To contribute, please follow these steps:
 
 Fork this repository and create a new branch
@@ -78,7 +79,8 @@ Please follow the code of conduct and the style guide when contributing. You can
 ## Acknowledgements
 MCTS-in-Python was inspired by or uses the following resources:
 
-AlphaGo Zero: A paper by DeepMind that describes how they created a self-learning program that mastered the game of Go
-Monte Carlo Tree Search: A Wikipedia page that explains the MCTS algorithm and its applications
-Microsoft Copilot (formerly Bing Chat): An AI companion that helped us write this README and some parts of the code
+-AlphaGo Zero: A paper by DeepMind that describes how they created a self-learning program that mastered the game of Go
+-Monte Carlo Tree Search: A Wikipedia page that explains the MCTS algorithm and its applications
+-Microsoft Copilot (formerly Bing Chat): An AI companion that helped us write this README and the code
+
 Thank you for your interest in MCTS-in-Python. We hope you enjoy using it or contributing to it. If you have any questions or feedback, please feel free to contact us at emm32449@gmail.com.
