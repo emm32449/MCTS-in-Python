@@ -69,6 +69,13 @@ MCTS-in-Python is licensed under the MIT License. See LICENSE for more details.
 
 ## Contributing
 
+We are always looking for new ways to improve our project and make it more fun and challenging. Whether you are a machine learning enthusiast, a game developer, or a curious tester, you can contribute to MCTS-in-Python in two main ways:
+
+- Machine Learning Part: You can help us make the training process better by implementing new features, optimizing the code, or experimenting with different hyperparameters. You can also suggest new games or domains that can be solved by the MCTS algorithm and the neural network.
+- Game & Evaluation Part: You can help us make the game more interesting and engaging by adding new rules, Google Colab Widgets, or Python Code. You can also test the model's performance and behavior by playing against it or analyzing its decisions.
+
+No matter how you choose to contribute, you will be part of a community that is passionate about artificial intelligence and gaming. You will also learn new skills and gain valuable experience along the way. We appreciate your interest and support in our project and we hope you enjoy it as much as we do.
+
 MCTS in Python welcomes contributions from anyone who wants to improve or enhance the project. To contribute, please follow these steps:
 
 - Fork this repository and create a new branch
