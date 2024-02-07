@@ -90,8 +90,8 @@ Contributing to an open source project is a rewarding and fun way to learn new s
 ## Acknowledgements
 MCTS-in-Python was inspired by or uses the following resources:
 
--AlphaGo Zero: A paper by DeepMind that describes how they created a self-learning program that mastered the game of Go
--Monte Carlo Tree Search: A Wikipedia page that explains the MCTS algorithm and its applications
--Microsoft Copilot (formerly Bing Chat): An AI companion that helped us write this README and the code
+* AlphaGo Zero: A paper by DeepMind that describes how they created a self-learning program that mastered the game of Go. https://www.nature.com/articles/nature24270
+* Monte Carlo Tree Search: A Wikipedia page that explains the MCTS algorithm and its applications. https://en.wikipedia.org/wiki/Monte_Carlo_tree_search
+* Microsoft Copilot (formerly Bing Chat): An AI companion that helped us write this README and the code. You can learn more about it here: https://copilot.microsoft.com/
 
 Thank you for your interest in MCTS-in-Python. We hope you enjoy using it or contributing to it. If you have any questions or feedback, please feel free to contact us at emm32449@gmail.com.
