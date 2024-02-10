@@ -1,6 +1,6 @@
 # MCTS-in-Python
 
-MCTS-in-Python is a repository that contains simple games with a complex training process. It’s kind of an experiment in, “What can we make with free compute these days?” 
+MCTS-in-Python is a repository that contains simple games with a complex training process. It’s a machine learning enthusiast experiment in, “What can we make with free compute these days?” 
 ### Single Threaded:
 ~1000 epochs/45m for the AddingGame w/50 simulations per self-play.
 ### Parallel Sims w/6 Threads: ?
