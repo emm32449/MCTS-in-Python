@@ -1,7 +1,7 @@
 # MCTS-in-Python
 
 MCTS-in-Python is a repository that contains simple games with a complex training process. It’s a machine learning enthusiast experiment in, “What can we make with free compute these days?” 
-### Single CPU:
+### CPU:
 ~1000 epochs/45m for the AddingGame w/50 simulations per self-play.
 ### PyCUDA GPU: ?
 It uses a version of a program like AlphaGo Zero, which is a self-learning algorithm that mastered the game of Go. 
