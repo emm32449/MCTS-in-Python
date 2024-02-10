@@ -1,9 +1,9 @@
 # MCTS-in-Python
 
-MCTS-in-Python is a repository that contains simple games with a complex training process. It’s kind of an experiment in “How far can you go with free compute these days?” 
-Single Threaded:
+MCTS-in-Python is a repository that contains simple games with a complex training process. It’s kind of an experiment in “What can we make with free compute these days?” 
+### Single Threaded:
 ~1000 epochs/45m for the AddingGame w/50 simulations per self-play.
-Parallel Sims: ?
+### Parallel Sims w/6 Threads: ?
 It uses a version of a program like AlphaGo Zero, which is a self-learning algorithm that mastered the game of Go. 
 The repository currently only includes the following game: an Adding Game: A game where the player has to add numbers to reach a target sum.
 
