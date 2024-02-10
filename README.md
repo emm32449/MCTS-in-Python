@@ -97,6 +97,6 @@ MCTS-in-Python was inspired by or uses the following resources:
 * Monte Carlo Tree Search: A Wikipedia page that explains the MCTS algorithm and its applications. https://en.wikipedia.org/wiki/Monte_Carlo_tree_search
 * Microsoft Copilot (formerly Bing Chat): An AI companion that helped us write this README and the code. You can learn more about it here: https://copilot.microsoft.com/
 * Developed in Google Colab Python Notebooks: https://colab.research.google.com/
-* Aleksa Gordic's YouTube videos offered a lot of needed clarity for understanding AGZ's Self Training: https://www.youtube.com/watch?v=0slFo1rV0EM
+* Aleksa Gordic's YouTube videos offer a lot of needed clarity for understanding AGZ's Self Training: https://www.youtube.com/watch?v=0slFo1rV0EM
 
 Thank you for your interest in MCTS-in-Python. We hope you enjoy using it or contributing to it. If you have any questions or feedback, please feel free to contact us at emm32449@gmail.com.
