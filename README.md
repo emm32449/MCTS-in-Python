@@ -3,8 +3,8 @@
 MCTS-in-Python is a machine learning enthusiast repository that contains simple games with a complex training process.
 ### CPU:
 ~1000 epochs/45m for the AddingGame w/50 simulations per self-play.
-### PyCUDA GPU: ?
-### TensorFLow TPU: ?
+### T4 GPU: ?
+### TPU: ?
 It uses a version of a program like AlphaGo Zero, which is a self-learning algorithm that mastered the game of Go. 
 The repository currently only includes the following game: an Adding Game: A game where the player has to add numbers to reach a target sum.
 
