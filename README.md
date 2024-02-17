@@ -22,6 +22,9 @@ To preview the Adding Game, follow these steps:
 
 - Open this Google Colab notebook: https://colab.research.google.com/drive/1jj1-iQItF0umZX3pQsFPavEUzoaRjG0y
 
+![adding game](https://github.com/count-rostov/MCTS-in-Python/assets/159494114/f8ee943d-5717-4287-863e-849105f28c62)
+  
+
 ## Features
 
 The repository also contains the code for the Monte Carlo Tree Search (MCTS) algorithm, which is a method for finding optimal decisions in complex and uncertain domains. The MCTS algorithm uses a neural network to guide the search and evaluate the game states. The neural network is trained by playing games against itself and learning from the outcomes.
