@@ -22,7 +22,7 @@ To preview the Adding Game, follow these steps:
 
 - Open this Google Colab notebook: https://colab.research.google.com/drive/1jj1-iQItF0umZX3pQsFPavEUzoaRjG0y
 
-![adding game](https://github.com/count-rostov/MCTS-in-Python/assets/159494114/f8ee943d-5717-4287-863e-849105f28c62)
+<img src="https://github.com/count-rostov/MCTS-in-Python/assets/159494114/f8ee943d-5717-4287-863e-849105f28c62" width="50%">
   
 
 ## Features
