@@ -20,7 +20,7 @@ The repository currently only includes the following game: an Adding Game: A gam
 
 To preview the Adding Game, follow these steps:
 
-- Open this Google Colab notebook: AddingGame_CPU_Pytorch5-with batches.ipynb (https://colab.research.google.com/drive/1HoyQn4i0jsBStiQFTCLK4PsnutuhbH7B#scrollTo=UPoohsmUCrX4)
+- Open this Google Colab notebook:AddingGame_CPU_Pytorch.ipynb (https://colab.research.google.com/drive/1Dq3PjaFxMbgtCDNwQ55P9X0nvCy6eeUg#scrollTo=MwqfjyLTCyTP)
 
 <img src="https://github.com/count-rostov/MCTS-in-Python/assets/159494114/f8ee943d-5717-4287-863e-849105f28c62" width="50%">
   
