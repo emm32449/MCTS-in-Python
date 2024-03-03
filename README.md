@@ -2,7 +2,13 @@
 
 MCTS-in-Python is a machine learning enthusiast repository that contains simple games with a complex training process.
 ### CPU:
-~1000 epochs/45m for the AddingGame w/50 simulations per self-play.
+epochs = 500,
+num_simulations = 50,
+max_buffer_size = 1000,
+batch_size = 100,
+subset_size = 80,
+~1hr20m
+
 ### T4 GPU: ?
 ### TPU: ?
 It uses a version of a program like AlphaGo Zero, which is a self-learning algorithm that mastered the game of Go. 
