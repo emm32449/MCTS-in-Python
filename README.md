@@ -1,6 +1,12 @@
 # MCTS-in-Python
 
-MCTS-in-Python is a machine learning enthusiast repository that contains simple games with a complex training process.
+Hello, future AI master! Get ready to dive into MCTS-in-Python, a treasure trove for all machine learning buffs eager to tinker with a stripped-down version of AlphaGo Zero. Remember AlphaGo Zero? The self-teaching algorithm that blew everyone’s mind with its superhuman Go skills, all without a shred of human knowledge or guidance. In this repository, you’ll stumble upon PyTorch code and Google Colab notebooks that bring to life a Monte Carlo Tree Search (MCTS) algorithm for a nifty little adding game.
+
+The game’s rules are a breeze: start at 0 and aim for 10 by adding 1, 2, or 3, but careful not to overshoot. It’s a cinch to understand and code, but don’t be fooled, it’s got some neat challenges for those just dipping their toes into model training with the MCTS algorithm. By kicking off with a simple game, you’ll get a solid grasp of the AlphaGo Zero-like model training process. Then, when you’re ready, crank up the game’s complexity and the algorithm’s sophistication by venturing into distributed computing and generalized games.
+
+So, what are you waiting for? Join us on this thrilling exploration of AI’s incredible power and potential! Dive into our code, notebook, and model. Don’t forget, we’re all ears for contributions and feedback.
+
+## Current Params & Performance
 ### CPU:
 epochs = 500,
 num_simulations = 50,
@@ -11,8 +17,6 @@ subset_size = 80,
 
 ### T4 GPU: ?
 ### TPU: ?
-It uses a version of a program like AlphaGo Zero, which is a self-learning algorithm that mastered the game of Go. 
-The repository currently only includes the following game: an Adding Game: A game where the player has to add numbers to reach a target sum.
 
 ## Table of Contents
 
@@ -35,39 +39,6 @@ To preview the Adding Game, follow these steps:
 
 The repository also contains the code for the Monte Carlo Tree Search (MCTS) algorithm, which is a method for finding optimal decisions in complex and uncertain domains. The MCTS algorithm uses a neural network to guide the search and evaluate the game states. The neural network is trained by playing games against itself and learning from the outcomes.
 
-ToDo:
-Update the network with states and actions from many games of self-play
-```python
-# Initialize lists to store states, actions, and rewards from all games
-all_states = []
-all_actions = []
-all_rewards = []
-
-# Training loop
-for i in range(epochs):
-    # Play a game and get the states, actions, and rewards
-    states, actions, reward = mcts.self_play(network, game, game_number)
-    
-    # Add the states, actions, and rewards to our lists
-    all_states.extend(states)
-    all_actions.extend(actions)
-    all_rewards.extend([reward] * len(states))  # Assume the same reward for all states
-    
-    # If we've played enough games, train the network
-    if (i + 1) % num_games_per_update == 0:
-        loss = mcts.train(all_states, all_actions, all_rewards, epochs)
-        losses.append(loss)
-        
-        # Clear our lists for the next batch of games
-        all_states = []
-        all_actions = []
-        all_rewards = []
-    
-    game_number += 1
-
-    # Step the learning rate scheduler
-    scheduler.step()
-```
 ## Suggested Improvements:
 
 - **Temperature Parameter**: AlphaGo Zero uses a temperature parameter to control the level of exploration during self-play. This could be implemented in the self_play function when choosing the action.
